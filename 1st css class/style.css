@@ -1,0 +1,25 @@
+.change2{
+    color:blueviolet;
+}
+.change3{
+    color:red;
+} 
+/* after  that  we have  to link that file in  html  file */ 
+/*element selector:we need to change color  by using  selector  tag */ 
+tr{
+  background-color:green;
+}
+/* using id */
+#change5{
+    background-color: brown;
+} 
+ /*if i want to  change the dimendsion of both image  */
+img{
+    width:100px;
+    height:100px;
+} 
+/* if i want to change dimension  of only one image then we use attribute selector */
+img[alt="image1"]{
+    `height:400px;
+     width:400px;
+}

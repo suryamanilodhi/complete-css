@@ -1,0 +1,42 @@
+.outer{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    position:relative;
+}
+.inner1{
+    background-color:red;
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    right:0;
+}
+.inner2{
+    background-color:yellow;
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    bottom:0;
+}
+.inner3{
+    background-color:green;
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+.inner4{
+    background: blue;
+    height: 50px;
+    width: 50px;
+    position:absolute;
+}
+.inner5{
+    background:slateblue;
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    bottom:50%;
+    right:40%
+}

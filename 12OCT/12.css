@@ -1,0 +1,38 @@
+.para{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:oblique;
+    font-weight: 400;
+    font-variant:small-caps;
+    font-size: 40px;
+} 
+.outer{
+    background-color:aqua;
+    height: 500px;
+    width: 100%;
+}
+.inner1{
+    background-color:blue;
+    height: 200px;
+    width: 200px;
+    float:right;
+    float:inline-start;
+    
+}
+.inner2{
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    /* clear:right; using clear property our container wiil not allow to any of the left or right we cant use clear or float to the same element */
+} 
+/* overflow prpperty of css using overflow property our container will not allow to overflow out the container */ 
+.box{
+    background-color:rebeccapurple;
+    height: 200px;
+    width: 200px; 
+    /* overflow:auto; automaticaly adigist ho jayega */ 
+    /* overflow: hidden; hidden ho jatya h baki ka content */
+    /* overflow:scroll; scroll hoyega */
+    overflow-x: scroll;
+    overflow-y:scroll;
+}
+

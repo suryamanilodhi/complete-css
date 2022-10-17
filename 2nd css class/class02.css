@@ -1,0 +1,72 @@
+/* h1{
+    color:red;
+}  
+.para{
+    color:blue;
+} 
+#chain{
+    color:yellow;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a[href="https://www.google.com/"]{
+    background-color:red;
+} 
+a[href="https://www.gmail.com/"] {
+    background-color:blue; 
+} */
+/* if i want  to give same styling to diiferent tag element then  we can  selecrt tag seperated  by  comm */ 
+/* h2,p,h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+} */ 
+
+/* color and background color of tag element*/
+/* h1{
+    color:yellow;
+}
+h2{ 
+    color:blue;
+    background-color:red;
+}  */
+/* we can also give border color */ 
+/* h3{
+    background-color:orange;
+    border:1px solid blue;
+}  */
+/* using opacity we can give transparancy of an element its  value lile between  0-1; */
+/* h4{
+    background-color:green;
+    opacity:0.3;
+} 
+/* color by using rgb */
+/* h1{
+    background-color:rgb(255,255,255);
+}
+h2{
+    background-color: rgb(0,123,134);
+} 
+/* color by using alpha it give label of darkness of rgb color*/ 
+/* h3{
+    background-color:rgba(123,124,123,0.9)
+} 
+/* we can also give opacity to the image */ 
+/* img{
+     opacity:0.2;
+}  */ 
+/* noow background image of any text */
+/* h1{
+    background-image:url("https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
+    /* by dafault it is repeated  so we use background repeat property*/
+    /* background-repeat: no-repeat; 
+    background-repeat:repeat-x;
+    background-repeat:repeat-y; */
+    /* we  can also adgist the size of background */
+    /* background-size: 100%;  */
+    /* background-size:50%,50%;  pahle width phir  height */
+/* } */
+    
+/* shorthand property */ 
+h1{
+    background:red url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDuE2ejpy-CjPVNdAhuIVch-8DRr20pvVwxs2pBWtl&s") repeat-x right top;
+}

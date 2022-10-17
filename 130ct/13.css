@@ -1,0 +1,26 @@
+.chat-bot{
+    background-color:orange;
+    height: 100px;
+    width: 30%; 
+    border-radius:30%; 
+    padding:20px;
+    text-align: center;
+    font-size: 24px;
+    color:blue; 
+    position:fixed;
+    left:20px;
+    bottom:40px;
+} 
+.chat{
+    background-color:purple;
+    height: 30px;
+    width: 30%; 
+    border-radius:30%; 
+    padding:100px;
+    text-align: center;
+    font-size: 24px;
+    color:blue; 
+    position:sticky;
+    top:20px;
+    
+}

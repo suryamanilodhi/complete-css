@@ -1,0 +1,80 @@
+.testing{
+       color:red;
+       background-color:blue;
+       height:400px;
+       width:100%;
+
+} 
+.testing p{
+    padding:50px 100px 300px 250px;
+   /* padding-top:30px;
+    padding -left:40px;
+    padding-bottom:50px;
+    padding-right:80px; */ 
+    margin-top:50px; 
+    margin-bottom:50px;
+    margin-left:100px; 
+    margin-right:100px; 
+    /*shorthand property of margin same as padding  */ 
+    margin:40px;
+    /* margin:100px  200px 300px 50px; shorthand property of margin */ 
+    outline-offset:5px;/*it will give space between outline  and border*/
+} 
+/* alignment */
+.testing p{
+    color:yellow; 
+    text-align:center;
+    text-align:left;
+    text-align:right; 
+    /*multiple line m last line ko allign karne k liye */
+    text-align-last:right; 
+    /* justify means container m yek dum fit */
+    text-align:justify; 
+    /* text direction */ 
+    direction:rtl;
+    direction:ltr;
+    /*it will change the content according to  the direction*/
+    unicode-bidi: bidi-override;
+} 
+.second{
+    background-color: orange;
+    height:400px;
+    width: 800px;
+    text-align:center; 
+    padding:30px;
+    margin:30px;
+
+
+}
+/* text-decoration */ 
+.second p{
+    text-decoration-color:red;
+    text-decoration-line:underline;
+     text-decoration: overline;
+     text-decoration-style:wavy;
+     text-decoration-thickness:1px; 
+     /*shorthand property */ 
+     /*shorthand property */
+     text-decoration: overline blue 4px wavy; 
+
+     /* text-transformation-:it  is used to transform  the text in either  uppercase lowercase or capatalize */ 
+     text-transform:uppercase;
+     text-transform:lowercase; 
+
+} 
+.testing{ 
+    
+     /* test spacing: text-indent(means proper  spacing from left side)*/ 
+    text-indent:200px; 
+     /*space imn letter  */
+    letter-spacing:4px; 
+    /*it is  used to give the  height between two line*/
+    line-height: 30px; 
+    word-spacing:4px; 
+    /* all letter come in same line */
+    /* white-space:nowrap; */ 
+
+    /* text shadow:it is used to  give shadow  to our  text text-shador:horizontal vertical blur color*/ 
+    text-shadow: 5px 5px 3px black; 
+
+} 
